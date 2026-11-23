@@ -20,9 +20,12 @@ main section{width:90%;max-width:980px;margin:auto;padding:72px 0}
 h2{font-size:1.9rem;margin-bottom:24px}
 .lead{color:var(--muted);margin:-8px 0 32px}
 
-.hero{padding:110px 0 80px}
-.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:700;max-width:22ch}
-.hero p{margin-top:24px;max-width:60ch;color:var(--muted);font-size:1.15rem}
+.hero{padding:100px 0 72px;display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.hero-text{flex:1 1 420px}
+.hero h1{font-size:clamp(2.4rem,6vw,3.8rem);font-weight:700}
+.role{color:var(--accent);font-weight:600;margin-bottom:12px}
+.objective{margin-top:24px;max-width:60ch;color:var(--muted);font-size:1.15rem}
+.photo{width:200px;height:200px;object-fit:cover;border-radius:50%;border:2px solid var(--line)}
 .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px}
 .btn{display:inline-block;padding:13px 28px;border-radius:10px;text-decoration:none;font-weight:600;background:var(--accent-strong);color:#fff;border:1px solid var(--accent-strong);transition:background .2s}
 .btn:hover{background:#9d52ee}
@@ -47,6 +50,12 @@ h2{font-size:1.9rem;margin-bottom:24px}
 .skill-group h3{font-size:1.05rem;margin-bottom:12px}
 
 #contacto p{max-width:60ch;color:var(--muted);margin-bottom:24px}
+h3.sub{font-size:1.1rem;margin:36px 0 14px}
+.edu h3{font-size:1.15rem}.edu p{color:var(--muted)}
+.plain{list-style:none;display:grid;gap:10px;max-width:72ch}
+.plain a{color:var(--accent);font-weight:600}.plain span{color:var(--muted)}
+.project-links{display:grid;gap:4px}
+.shot{width:100%;border-radius:10px;border:1px solid var(--line);margin-bottom:20px}
 footer{text-align:center;padding:40px 20px;color:var(--muted);border-top:1px solid var(--line)}
 
 @media (max-width:720px){
